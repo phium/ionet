@@ -3,7 +3,7 @@
 set -euxo pipefail
 
 export DEBIAN_FRONTEND=noninteractive
- dpkg --set-selections <<< "cloud-init install" || true
+dpkg --set-selections <<< "cloud-init install" || true
 
 # Set Gloabal Variables
     # Detect OS
